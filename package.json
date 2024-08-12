@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+ "scripts": {
+  "start": "node index.js",
   "test": "echo \"No test specified\""
 },
   "author": "",
@@ -16,5 +17,8 @@
     "node-telegram-bot-api": "^0.66.0",
     "node-telegram-keyboard-wrapper": "^3.1.0",
     "nodemon": "^3.0.3"
-  }
+  },
+  "engines": {
+  "node": ">=20.0.0"
+}
 }
